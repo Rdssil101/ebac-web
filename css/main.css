@@ -1,0 +1,140 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2 {
+   color: #462663;
+   font-size: 40px;
+   margin-top: 15px;
+}
+
+.div-form {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   text-align: center;
+   width: 100%;
+}
+
+/* .div-form > form { 
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+}
+*/
+
+.div-form fieldset {
+   color: #212343;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+   'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: bold;
+   height: 390px;
+   letter-spacing: 1.0px;
+   width: 600px;
+}
+
+.div-form legend {
+   align-items: center;
+   color: #212343;
+   font-size: 30px;
+   top: 30px;
+   padding: 8px;
+}
+
+.div-form label {
+   color: #212343;
+   display: block;
+   font-size: 18px;
+   font-weight: bold;
+   margin-top: 8px;
+   padding: 10px;
+   text-shadow: 2.1px 2.1px 3.0px #212343;
+   width: 100%;
+}
+
+form input[type=text],
+form input[type=number]{
+   align-items: center;
+   background-color: #a09393;
+   border: 1px solid #c9b8b8;
+   box-shadow: 3px 3px 5px #645858;
+   color: #212343;
+   display: flex;
+   height: 40px;
+   margin-left: 90px;
+   margin-top: 0 10px;
+   padding: 3px;
+   width: 400px;
+}
+
+form input::placeholder {
+   color: #212343;
+   border-color: #a09393;
+   font-weight: 600;
+   margin-left: 0;
+   padding: 6px;
+}
+
+form textarea {
+   background-color: #a09393;
+   border: 1px solid #c9b8b8;
+   box-shadow: 3px 3px 5px #645858;
+   color: #212343;
+   display: flex;
+   height: 45px;
+   margin-left: 90px;
+   margin-top: 0 10px;
+   resize: none;
+   width: 400px;
+}
+
+form textarea::placeholder {
+   color: #212343;
+   border-color: #a09393;
+   font-weight: 600;
+   padding: 4px;
+}
+form button {
+   background-color: #a09393;
+   background-color: #a09393;
+   border: 1px solid #c9b8b8;
+   box-shadow: 3px 3px 5px #645858;
+   color: #000000;
+   cursor: pointer;
+   font-size: 18px;
+   font-weight: bolder;
+   height: 45px;
+   letter-spacing: 1px;
+   margin-top: 25px;
+   text-shadow: #212343 3.1px 3.1px 3.0px;
+   width: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
